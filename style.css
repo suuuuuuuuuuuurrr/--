@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0px;
+}
+
+.header{
+    background-image: url(img/bg.webp) ;
+    height: 100vh;
+    background-size: cover;
+    
+    
+}
+
+.header-line{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+        color: #000000;
+        text-decoration: none;
+        font-weight: 800;
+        font-size: 14px;
+    
+        margin-right: 20px;
+    
+        transition: color 0.1s linear;
+    
+}
+
+.nav-item:hover{
+    color:rgb(214, 195, 21);
+}
+
+.nav{
+    left: 40%;
+    transform: translateX(-20%);
+    position: absolute;
+    margin: 20px 20px
+   
+}
+
+.cart img:hover{
+    color:firebrick;
+}
+
+
+.cart img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: 10px 500px ;
+    left: 50%;
+    
+}
+
+
+.logo{
+    left: 20%;
+    position: absolute;
+    transform: translateX(-60%);
+    margin: 10px -100px;
+}
+
+.burger img{
+    width: 30px;
+    height: 30px;
+    left: 700%;
+    position: absolute;
+    margin: -20px 400px
+}
+
+
+.text{
+    text-decoration: none;
+    color: #000000;
+    left: -15%;
+    transform: translateX(-20%);
+    position: absolute;
+    margin: 250px 400px;
+    font-size: 10ch;
+    font-weight: 800
+    
+    
+}
+
+.text-2{
+    text-decoration: none;
+    color: #000000;
+    left: -15%;
+    transform: translateX(-20%);
+    position: absolute;
+    margin: 370px 290px;
+    font-size: 2.8ch;
+    font-weight: 800
+    
+}
+
+.button{
+    border: 2px solid #000000;
+    color:#000000;
+    text-decoration: none;
+    font-weight: 200;
+    padding:10px 14px;
+    position:absolute;
+    margin: 470px 500px;
+    font-size: 2.5ch;
+}
+
+.button:hover{
+    color:aliceblue;
+    border-color:aliceblue;
+    
+}
+
+.tt{
+    text-decoration: none;
+    margin: 100px 500px;
+    font-size: 3.5ch;
+    font-weight: 800;
+}
+
+
+.tt-2{
+    text-decoration: none;
+    margin: 10px -100px;
+    font-size: 1.5ch;
+}
+   
+
+.lina{
+    color:rgb(248, 212, 92);
+    font-size: 2.8ch;
+    margin: -10px 250px;
+    font-weight: 800;
+}
+
+
+.foto1 img{
+    margin: 50px 60px;
+}
+
+.foto2 img{
+    margin: -277px 400px;
+    position:absolute;
+    
+}
+
+.foto3 img{
+    margin: -30px 60px;
+    position:absolute;
+}
+
+.foto4 img{
+    margin: 89px 400px;
+    position:absolute;
+}
+
+.tt-3{
+    text-decoration: none;
+    margin: -120px -440px;
+    position:absolute;
+    font-size: 3ch;
+
+}
+
+.tt-4{
+    margin: -50px -470px;
+    font-size: 1.3ch;
+    font-weight: 100;
+}
+
+.button-2{
+    background-color: #000000;
+    color:#ffffff;
+    text-decoration: none;
+    font-weight: 200;
+    padding:20px 14px;
+    position:absolute;
+    margin: 90px -440px;
+    font-size: 1.3ch;
+    transition: background-color 0.2s linear;
+}
+
+.button-2:hover{
+    background-color:rgb(248, 212, 92);
+}
